@@ -1,12 +1,11 @@
 /**
  * Script para criação de horários
  * 
- * Esta este script tem como função criar horários de acordo com o valor passado pelo usuário.
+ * Este script tem como função criar horários de acordo com o valor passado pelo usuário.
  * 
  * @author Anderson Souza
  * 
  */
-
 
 // Constantes globais quer serão usadas no código
 const criarHorariosBtn = document.querySelector("#criarHorarios");
@@ -14,6 +13,8 @@ const limparBtn = document.querySelector("#limpar");
 const resultado = document.querySelector("#resultado form .horarios");
 const resultado2 = document.querySelector("#resultado form .botao");
 let acada = 0;
+
+
 
 // Função responsável por pegar os valores do input
 function getInputsValue(){
@@ -112,4 +113,5 @@ criarHorariosBtn.addEventListener("click", (e)=>{
 
 limparBtn.addEventListener("click", ()=>{
     limparArraysETela();
-})
+});
+
